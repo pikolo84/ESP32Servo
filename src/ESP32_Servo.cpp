@@ -212,7 +212,7 @@ int Servo::readMicroseconds()
 
 bool Servo::attached()
 {
-    return (ChannelUsed[this->servoChannel]);
+    return (ChannelUsed[this->servoChannel] >= 0);
 }
 
 void Servo::setTimerWidth(int value)
