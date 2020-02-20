@@ -1,0 +1,7 @@
+{
+    "sketch": "examples\\Multiple-Servo-Example-Arduino\\Multiple-Servo-Example-Arduino.ino",
+    "port": "COM1",
+    "board": "esp32:esp32:esp32",
+    "output": "C:\\Windows\\Temp\\arduinoOutput",
+    "configuration": "PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none"
+}
