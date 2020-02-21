@@ -54,6 +54,8 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 #include "esp32-hal-ledc.h"
 #include "Arduino.h"
 
+Servo::Servo() {}
+
 Servo::Servo(int pin, int channel)
 {
     this->servoChannel = channel;
